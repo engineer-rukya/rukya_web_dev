@@ -6,9 +6,9 @@
             "name": "������ ������ � ��� �����",
             "slug": "chajnyj-stolik-i-tri-stula",
             "description": "�������� �� ��� ������� � ������������ ������ ��� �������� �������.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
             "price": "150.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 10,
             "category": 5
         }
@@ -20,7 +20,7 @@
             "name": "������������ �������",
             "slug": "dvuhspalnaya-krovat",
             "description": "������� ������������ � ������������� � ������ ����� ������������.",
-            "image": "",
+            "image": "goods_images/double_bed.jpg",
             "price": "670.00",
             "discount": "0.00",
             "quantity": 5,
@@ -34,9 +34,9 @@
             "name": "�������� ���� � ���������",
             "slug": "kuhonnyj-stol-s-rakovinoj",
             "description": "�������� ���� ��� ����� � ���������� ��������� � ��������.",
-            "image": "",
+            "image": "goods_images/kitchen_table.jpg",
             "price": "365.00",
-            "discount": "0.00",
+            "discount": "5.00",
             "quantity": 11,
             "category": 5
         }
@@ -48,7 +48,7 @@
             "name": "�������� ���� � ���������",
             "slug": "kuhonnyj-stol-s-vstrojkoj",
             "description": "�������� ���� �� ���������� ������ � ���������. ����� ����� � ������ ��������.",
-            "image": "",
+            "image": "goods_images/kitchen_table_2.jpg",
             "price": "430.00",
             "discount": "0.00",
             "quantity": 8,
@@ -62,7 +62,7 @@
             "name": "������� ����� ��� ���������",
             "slug": "uglovoj-divan-dlya-gostinnoj",
             "description": "������� �����, �������������� � ������������ �������, ��� �������� � ������ ������ ����� ��!",
-            "image": "",
+            "image": "goods_images/corner_sofa.jpg",
             "price": "610.00",
             "discount": "0.00",
             "quantity": 8,
@@ -76,7 +76,7 @@
             "name": "������������ ������",
             "slug": "prikrovatnyj-stolik",
             "description": "������������ ������ � ����� ���������� ������� (������ �� ������ � ��������).",
-            "image": "",
+            "image": "goods_images/strange_table.jpg",
             "price": "55.00",
             "discount": "0.00",
             "quantity": 2,
@@ -90,9 +90,9 @@
             "name": "���� �������",
             "slug": "stul-ofisnyj",
             "description": "�������� ������, ��� �� ����� �� ��������, �� ��� ����, ��� ��� �������...",
-            "image": "",
+            "image": "goods_images/office_chair.jpg",
             "price": "30.00",
-            "discount": "0.00",
+            "discount": "15.00",
             "quantity": 35,
             "category": 9
         }
@@ -104,9 +104,9 @@
             "name": "��������",
             "slug": "rastenie",
             "description": "�������� ��� ��������� ������ ��������� ������� �������� � ������������� ����������.",
-            "image": "",
+            "image": "goods_images/plants.jpg",
             "price": "10.00",
-            "discount": "0.00",
+            "discount": "20.00",
             "quantity": 17,
             "category": 7
         }
@@ -118,7 +118,7 @@
             "name": "������ ���������������",
             "slug": "cvetok-stilizirovannyj",
             "description": "������������ ������ (�������� �������������) ��� ��������� ���������.",
-            "image": "",
+            "image": "goods_images/flower.jpg",
             "price": "15.00",
             "discount": "0.00",
             "quantity": 17,
@@ -132,9 +132,9 @@
             "name": "������������ ������ 2",
             "slug": "prikrovatnyj-stolik-2",
             "description": "������, �������� �������� �� ���, �� �������� ��� ���������� ����� � ��������.",
-            "image": "",
+            "image": "goods_images/bedside_table.jpg",
             "price": "25.00",
-            "discount": "0.00",
+            "discount": "2.00",
             "quantity": 10,
             "category": 6
         }
@@ -146,9 +146,9 @@
             "name": "������ ������ � ��� �����",
             "slug": "chajnyj-stolik-i-dva-stula",
             "description": "����� �� ����� � ���� ������� � ����������������� �����.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
             "price": "93.00",
-            "discount": "0.00",
+            "discount": "5.00",
             "quantity": 7,
             "category": 5
         }
@@ -160,9 +160,9 @@
             "name": "����� ������������",
             "slug": "divan-obyknovennyj",
             "description": "�����, �� �� ���� ������������, ������ ��������������� ��� ��������.",
-            "image": "",
+            "image": "goods_images/sofa.jpg",
             "price": "190.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 5,
             "category": 10
         }
