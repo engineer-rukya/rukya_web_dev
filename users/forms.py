@@ -31,6 +31,23 @@ class UserRegistrationForm(UserCreationForm):
         password1 = forms.CharField()
         password2 = forms.CharField()
 
+class ProfileForm(UserChangeForm):
+    class Meta:
+        model = User
+        fields = (
+            "image",
+            "first_name",
+            "last_name",
+            "username",
+            "email",
+        )
+        image = forms.ImageField(required=False)
+        first_name = forms.CharField()
+        last_name = forms.CharField()
+        username = forms.CharField()
+        email = forms.CharField()
+
+
 
     #     label = ' Имя',
     #     widget=forms.TextInput(attrs={"autofocus": True,
@@ -43,6 +60,8 @@ class UserRegistrationForm(UserCreationForm):
     #                                   'class': 'form-control',
     #                                   'placeholder': 'Введите ваш пароль'}),
     # )
+
+
 
 
 
