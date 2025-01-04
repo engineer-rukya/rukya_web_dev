@@ -1,8 +1,9 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
+from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, render
 from django.urls import reverse
-from django.http import HttpResponseRedirect
+
 
 from users.forms import UserLoginForm, UserRegistrationForm, ProfileForm
 
@@ -17,6 +18,10 @@ def login(request):
             if user:
                 auth.login(request, user)
                 messages.success(request, f"{username}, Вы вошли в аккаунт")
+
+                if request.POST.get('next', None):
+                     return HttpResponseRedirect(request.POST.get('next'))
+                
                 return HttpResponseRedirect(reverse('main:index'))
     else:
         form = UserLoginForm()
