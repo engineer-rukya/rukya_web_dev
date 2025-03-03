@@ -1,0 +1,70 @@
+from django import forms 
+
+
+class CreateOrderForm(forms.Form):
+    first_name = forms.CharField()
+    last_name = forms.CharField()
+    phone_number = forms.CharField()
+    requires_delivery = forms.ChoiceField()
+    delivery_address= forms.ChoiceField(required=False)
+    payment_on_get = forms.ChoiceField()
+
+
+
+
+    
+    # first_name = forms.CharField(
+    #     widet=forms.TextInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Введите ваше имя",
+    #         }
+    #     )
+    # )
+
+    # last_name = forms.CharField(
+    #     widet=forms.TextInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Введите вашу фамилию",
+    #         }
+    #     )
+    # )
+
+    # phone_number = forms.CharField(
+    #     widet=forms.TextInput(
+    #         attrs={
+    #             "class": "form-control",
+    #             "placeholder": "Номер телефона",
+    #         }
+    #     )
+    # )
+
+    # requires_delivery = forms.ChoiceField(
+    #     widet=forms.RadioSelect(),
+    #     choices=[
+    #         ("0", False),
+    #         ("1", True),
+    #     ],
+    #     initial=0,
+    # )
+
+    # delivery_address = forms.ChoiceField(
+    #     widet=forms.Textarea(
+    #         attrs={
+    #             "class": "form-control",
+    #             "id":"delivery_address",
+    #             "rows": 2,
+    #             "placeholder": "Введите адрес доставки",
+    #         }
+    #     )
+    # )
+
+    # payment_on_get = forms.ChoiceField(
+    #     widet=forms.RadioSelect(),
+    #     choices=[
+    #         ("0", False),
+    #         ("1", True),
+    #     ],
+    #     initial="card",
+    # )
