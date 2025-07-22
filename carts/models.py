@@ -3,6 +3,7 @@ from django.db import models
 from goods.models import Products
 from users.models import User
 
+
 class CartQueryset(models.QuerySet):
     
     def total_price(self):
@@ -26,7 +27,9 @@ class Cart(models.Model):
         db_table = 'cart'
         verbose_name = "Корзина"
         verbose_name_plural = "Корзина"
-
+        ordering = ("id",)
+        
+        
     objects = CartQueryset().as_manager()
 
     def products_price(self):
