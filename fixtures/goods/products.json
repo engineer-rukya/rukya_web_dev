@@ -1,170 +1,142 @@
 [
-    {
-        "model": "goods.products",
-        "pk": 1,
-        "fields": {
-            "name": "Чайный столик и три стула",
-            "slug": "chajnyj-stolik-i-tri-stula",
-            "description": "Комплект из трёх стульев и дизайнерский столик для гостиной комнаты.",
-            "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
-            "price": "150.00",
-            "discount": "10.00",
-            "quantity": 10,
-            "category": 5
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 2,
-        "fields": {
-            "name": "Двухспальная кровать",
-            "slug": "dvuhspalnaya-krovat",
-            "description": "Кровать двухспальная с надголовником и вообще очень ортопедичная.",
-            "image": "goods_images/double_bed.jpg",
-            "price": "670.00",
-            "discount": "0.00",
-            "quantity": 5,
-            "category": 6
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 3,
-        "fields": {
-            "name": "Кухонный стол с раковиной",
-            "slug": "kuhonnyj-stol-s-rakovinoj",
-            "description": "Кухонный стол для обеда с встроенной раковиной и стульями.",
-            "image": "goods_images/kitchen_table.jpg",
-            "price": "365.00",
-            "discount": "5.00",
-            "quantity": 11,
-            "category": 5
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 4,
-        "fields": {
-            "name": "Кухонный стол с встройкой",
-            "slug": "kuhonnyj-stol-s-vstrojkoj",
-            "description": "Кухонный стол со встроенной плитой и раковиной. Много полок и вообще красивый.",
-            "image": "goods_images/kitchen_table_2.jpg",
-            "price": "430.00",
-            "discount": "0.00",
-            "quantity": 8,
-            "category": 5
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 5,
-        "fields": {
-            "name": "Угловой диван для гостинной",
-            "slug": "uglovoj-divan-dlya-gostinnoj",
-            "description": "Угловой диван, раскладывается в двухспальную кровать, для гостиной и приема гостей самое то!",
-            "image": "goods_images/corner_sofa.jpg",
-            "price": "610.00",
-            "discount": "0.00",
-            "quantity": 8,
-            "category": 10
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 6,
-        "fields": {
-            "name": "Прикроватный столик",
-            "slug": "prikrovatnyj-stolik",
-            "description": "Прикроватный столик с двумя выдвижными ящиками (цветок не входит в комплект).",
-            "image": "goods_images/strange_table.jpg",
-            "price": "55.00",
-            "discount": "0.00",
-            "quantity": 2,
-            "category": 6
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 7,
-        "fields": {
-            "name": "Стул офисный",
-            "slug": "stul-ofisnyj",
-            "description": "Описание товара, про то какой он классный, но это стул, что тут сказать...",
-            "image": "goods_images/office_chair.jpg",
-            "price": "30.00",
-            "discount": "15.00",
-            "quantity": 35,
-            "category": 9
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 8,
-        "fields": {
-            "name": "Растение",
-            "slug": "rastenie",
-            "description": "Растение для украшения вашего интерьера подарит свежесть и безмятежность обстановке.",
-            "image": "goods_images/plants.jpg",
-            "price": "10.00",
-            "discount": "20.00",
-            "quantity": 17,
-            "category": 7
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 9,
-        "fields": {
-            "name": "Цветок стилизированный",
-            "slug": "cvetok-stilizirovannyj",
-            "description": "Дизайнерский цветок (возможно искусственный) для украшения интерьера.",
-            "image": "goods_images/flower.jpg",
-            "price": "15.00",
-            "discount": "0.00",
-            "quantity": 17,
-            "category": 7
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 10,
-        "fields": {
-            "name": "Прикроватный столик 2",
-            "slug": "prikrovatnyj-stolik-2",
-            "description": "Столик, довольно странный на вид, но подходит для размещения рядом с кроватью.",
-            "image": "goods_images/bedside_table.jpg",
-            "price": "25.00",
-            "discount": "2.00",
-            "quantity": 10,
-            "category": 6
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 11,
-        "fields": {
-            "name": "Чайный столик и два стула",
-            "slug": "chajnyj-stolik-i-dva-stula",
-            "description": "Набор из стола и двух стульев в минималистическом стиле.",
-            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
-            "price": "93.00",
-            "discount": "5.00",
-            "quantity": 7,
-            "category": 5
-        }
-    },
-    {
-        "model": "goods.products",
-        "pk": 12,
-        "fields": {
-            "name": "Диван обыкновенный",
-            "slug": "divan-obyknovennyj",
-            "description": "Диван, он же софа обыкновенная, ничего примечательного для описания.",
-            "image": "goods_images/sofa.jpg",
-            "price": "190.00",
-            "discount": "10.00",
-            "quantity": 5,
-            "category": 10
-        }
+  {
+    "model": "goods.products",
+    "pk": 1,
+    "fields": {
+      "name": "Базовый REST API (CRUD)",
+      "slug": "bazovyj-rest-api-crud",
+      "description": "Создание простого API для одной модели (GET, POST, PUT, DELETE) с автодокументацией.",
+      "image": "goods_images/service_api_crud.jpg",
+      "price": "50.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 1
     }
+  },
+  {
+    "model": "goods.products",
+    "pk": 2,
+    "fields": {
+      "name": "API с авторизацией (JWT/OAuth2)",
+      "slug": "api-s-avtorizaciej",
+      "description": "API с регистрацией, логином, защитой маршрутов и токенами авторизации.",
+      "image": "goods_images/service_api_auth.jpg",
+      "price": "120.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 1
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 3,
+    "fields": {
+      "name": "Интеграция с Telegram-ботом",
+      "slug": "integraciya-s-telegram-botom",
+      "description": "Создание или подключение Telegram-бота с логикой на Python.",
+      "image": "goods_images/service_telegram.jpg",
+      "price": "100.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 2
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 4,
+    "fields": {
+      "name": "Админка на Django",
+      "slug": "adminka-na-django",
+      "description": "Настройка Django Admin с фильтрацией, действиями и красивым интерфейсом.",
+      "image": "goods_images/service_admin.jpg",
+      "price": "80.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 3
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 5,
+    "fields": {
+      "name": "Подключение платёжной системы",
+      "slug": "platezhnaya-sistema",
+      "description": "Stripe, ЮKassa и другие. Оплаты, Webhook, статусы заказов.",
+      "image": "goods_images/service_payments.jpg",
+      "price": "200.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 2
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 6,
+    "fields": {
+      "name": "Проектирование базы данных",
+      "slug": "baza-dannyh-proektirovanie",
+      "description": "ORM-модели, связи, миграции, оптимизация структуры БД.",
+      "image": "goods_images/service_db.jpg",
+      "price": "50.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 4
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 7,
+    "fields": {
+      "name": "Скрипт автоматизации / парсер",
+      "slug": "skript-avtomatizacii-parser",
+      "description": "Python-скрипт для парсинга сайтов или автоматизации задач.",
+      "image": "goods_images/service_parser.jpg",
+      "price": "90.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 5
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 8,
+    "fields": {
+      "name": "Тестирование и CI/CD",
+      "slug": "testirovanie-ci-cd",
+      "description": "Юнит-тесты, GitHub Actions, автоматизация деплоя.",
+      "image": "goods_images/service_tests.jpg",
+      "price": "120.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 6
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 9,
+    "fields": {
+      "name": "Аудит и рефакторинг кода",
+      "slug": "audit-i-refaktoring",
+      "description": "Проверка качества кода, выявление проблем, улучшения и оптимизация.",
+      "image": "goods_images/service_code_review.jpg",
+      "price": "100.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 7
+    }
+  },
+  {
+    "model": "goods.products",
+    "pk": 10,
+    "fields": {
+      "name": "Консультация по архитектуре проекта",
+      "slug": "konsultaciya-arhitektura",
+      "description": "Советы по стеку, структуре кода и архитектуре под задачи клиента.",
+      "image": "goods_images/service_consult.jpg",
+      "price": "40.00",
+      "discount": "0.00",
+      "quantity": 100,
+      "category": 8
+    }
+  }
 ]

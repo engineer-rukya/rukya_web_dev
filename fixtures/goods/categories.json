@@ -1,58 +1,99 @@
+
 [
-    {
-        "model": "goods.categories",
-        "pk": 4,
-        "fields": {
-            "name": "Все товары",
-            "slug": "all"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 5,
-        "fields": {
-            "name": "Кухня",
-            "slug": "kuhnya"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 6,
-        "fields": {
-            "name": "Спальня",
-            "slug": "spalnya"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 7,
-        "fields": {
-            "name": "Декор",
-            "slug": "dekor"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 8,
-        "fields": {
-            "name": "Фурнитура",
-            "slug": "furnitura"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 9,
-        "fields": {
-            "name": "Офис",
-            "slug": "ofis"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 10,
-        "fields": {
-            "name": "Гостиная",
-            "slug": "gostinaya"
-        }
+ {
+  "model": "goods.categories",
+  "pk": 9,
+  "fields": {
+    "name": "Все услуги",
+    "slug": "all"
     }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 10,
+    "fields": {
+      "name": "Разработка",
+      "slug": "razrabotka"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 11,
+    "fields": {
+      "name": "Дизайн",
+      "slug": "dizajn"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 12,
+    "fields": {
+      "name": "Маркетинг",
+      "slug": "marketing"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 1,
+    "fields": {
+      "name": "API и авторизация",
+      "slug": "api-i-avtorizaciya"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 2,
+    "fields": {
+      "name": "Интеграции и боты",
+      "slug": "integracii-i-boty"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 3,
+    "fields": {
+      "name": "Админки и CMS",
+      "slug": "adminki-i-cms"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 4,
+    "fields": {
+      "name": "Базы данных",
+      "slug": "bazy-dannyh"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 5,
+    "fields": {
+      "name": "Скрипты и автоматизация",
+      "slug": "skripty-i-avtomatizaciya"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 6,
+    "fields": {
+      "name": "Тестирование и CI/CD",
+      "slug": "testirovanie-i-ci-cd"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 7,
+    "fields": {
+      "name": "Аудит и рефакторинг",
+      "slug": "audit-i-refaktoring"
+    }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 8,
+    "fields": {
+      "name": "Консультации",
+      "slug": "konsultacii"
+    }
+  }
 ]

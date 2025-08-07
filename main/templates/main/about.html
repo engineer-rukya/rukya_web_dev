@@ -13,7 +13,10 @@
 {% block content %}
     <div class="mt-5 pt-5 py-4 bg-white custom-shadow rounded">
         <h2 class="m-2"><strong>{{ content }}</strong></h2>
-        <p class="m-2">{{ text_on_page }}</p>
+            
+        <pre class="m-2"> <img src="{% static 'deps/images/rukya.jpg' %}"
+                    alt="Аватар пользователя" class="img-fluid rounded-circle"
+                    style="max-width: 150px;">{{ text_on_page }}</pre>
     </div>
 
 {% endblock %}
@@ -21,7 +24,8 @@
 {% block footer %}
 <footer class="py-4 bg-dark">
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Home Python Hub Studio 2023  - 2024 </p>
+        <p class="m-0 text-center text-white">«Хотел быть сеньором — стал сижу-работаю-бесплатно»
+— Python Developer, 2025 г. </p>
     </div>
 </footer>
 {% endblock %}
