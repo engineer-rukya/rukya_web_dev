@@ -46,3 +46,16 @@ pre {
   border-radius: 15px;
   font-size: 0.7rem;
 }
+
+.card {
+    height: 100%;               /* растягиваем карту */
+    display: flex;
+    flex-direction: column;     /* содержимое сверху вниз */
+}
+
+.card-body {
+    flex: 1 1 auto;             /* тело занимает всё свободное место */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* распределяем содержимое равномерно */
+}
