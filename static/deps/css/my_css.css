@@ -98,3 +98,49 @@ body.dark-theme .card {
 .row{
   color: #fff;
 }
+
+.card {
+  background-color: rgb(38 45 61);
+  color: #2092ce;
+}
+.card-title{
+  color: #008000;
+  
+}
+.bg-b{
+  background-color: #212529;
+
+  /* background-color:#264966; */
+}
+.bg-k{
+  background-color: #212529;
+}
+/* .list-group-item {
+  background-color: rgb(38 45 61);
+  
+
+} */
+h5.card-title{
+  color: #212529;
+}
+
+.bg-y{
+  background-color: rgb(44 71 102);
+}
+.bg-x{
+  background-color: #acd2ff5c;
+}
+.page-link, .page-item{ 
+  background-color: rgb(44 71 102);
+  color: #25a9ef;
+}
+
+.active>.page-link {
+  background-color: #25a9ef;
+  color: #fff;
+  border-color: #25a9ef; ;
+}
+.disabled .page-link{
+  background-color: #257fb3;
+  color: #fff;
+}
